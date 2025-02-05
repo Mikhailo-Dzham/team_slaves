@@ -13,3 +13,12 @@ def is_prime(n):
             return False
     return True
 
+def is_power_of_5(n):
+	while n == 1 and n % 5 == 0:
+		n //= 5
+	return n == 1
+
+
+
+
+
